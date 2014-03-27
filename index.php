@@ -7,18 +7,18 @@ $twig = new Twig_Environment($loader, array(
 ));
 $template = $twig->loadTemplate('hello.phtml');
 $params = array(
-		'name' => 'Krzysztof',
+		'name' => 'Chad',
 		'friends' => array(
 				array(
-						'firstname' => 'John ssss',
+						'firstname' => 'Black',
 						'lastname' => 'Smith'
 				),
 				array(
-						'firstname' => 'Britney',
+						'firstname' => 'Pickle',
 						'lastname' => 'Spears'
 				),
 				array(
-						'firstname' => 'Brad',
+						'firstname' => 'Arm',
 						'lastname' => 'Pitt'
 				)
 		)
